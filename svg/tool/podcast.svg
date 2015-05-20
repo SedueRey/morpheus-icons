@@ -15,8 +15,8 @@
    id="svg4691"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="edit.svg"
-   inkscape:export-filename="D:\ev\github\morpheus-icons\png\edit.png"
+   sodipodi:docname="podcast.svg"
+   inkscape:export-filename="D:\ev\github\morpheus-icons\png\tool\podcast.png"
    inkscape:export-xdpi="9.0712738"
    inkscape:export-ydpi="9.0712738">
   <defs
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-8.7256353"
-     inkscape:cy="96.303078"
+     inkscape:zoom="2.4589638"
+     inkscape:cx="21.33998"
+     inkscape:cy="73.691932"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -91,24 +91,23 @@
          x="83.928566"
          y="942.7193"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier" /></text>
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4138"
-       width="23.732206"
-       height="58.289627"
-       x="731.29645"
-       y="521.95801"
-       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 110.12064,929.44786 -69.531208,69.53119 3e-6,11.44975 11.033381,0 69.531214,-69.53119 z"
-       id="path4152"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 146.21924,884.12447 c 0,0 -7.30352,6.88716 -19.15231,1.24906 -7.68525,7.68525 -2.49813,12.28246 -2.49813,12.28246 l -23.00359,23.00359"
-       id="path4154"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.000739,1010.7472 0,-85.23971 c 0,0 -20.494719,-2.83933 -20.494719,11.83262 0,18.779 0,42.77842 0,59.20043 0,16.42206 20.494719,14.20666 20.494719,14.20666 z"
+       id="path4139"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="ccszc" />
+    <path
+       sodipodi:nodetypes="ccszc"
+       inkscape:connector-curvature="0"
+       id="path4141"
+       d="m 142.29055,1010.7472 0,-85.23971 c 0,0 20.49472,-2.83933 20.49472,11.83262 0,18.779 0,42.77842 0,59.20043 0,16.42206 -20.49472,14.20666 -20.49472,14.20666 z"
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 55.104503,929.54928 c 0,0 3.567227,-20.3581 5.083442,-30.29732 2.736691,-17.93979 74.336425,-19.37186 79.708365,0 2.72285,9.81891 5.49012,31.51735 5.49012,31.51735"
+       id="path4145"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssc" />
   </g>
 </svg>

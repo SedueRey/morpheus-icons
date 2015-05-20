@@ -15,8 +15,8 @@
    id="svg4691"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="edit.svg"
-   inkscape:export-filename="D:\ev\github\morpheus-icons\png\edit.png"
+   sodipodi:docname="stats.svg"
+   inkscape:export-filename="D:\ev\github\morpheus-icons\png\tool\stats.png"
    inkscape:export-xdpi="9.0712738"
    inkscape:export-ydpi="9.0712738">
   <defs
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-8.7256353"
-     inkscape:cy="96.303078"
+     inkscape:zoom="2.8"
+     inkscape:cx="77.262044"
+     inkscape:cy="61.049471"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -91,24 +91,10 @@
          x="83.928566"
          y="942.7193"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier" /></text>
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4138"
-       width="23.732206"
-       height="58.289627"
-       x="731.29645"
-       y="521.95801"
-       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 110.12064,929.44786 -69.531208,69.53119 3e-6,11.44975 11.033381,0 69.531214,-69.53119 z"
-       id="path4152"
+       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 184.99999,911.29073 -87.142855,47.5 71.785715,61.42857 19.64285,-34.28571 6.07143,-45.35714 z"
+       id="path4723"
        inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 146.21924,884.12447 c 0,0 -7.30352,6.88716 -19.15231,1.24906 -7.68525,7.68525 -2.49813,12.28246 -2.49813,12.28246 l -23.00359,23.00359"
-       id="path4154"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
   </g>
 </svg>

@@ -15,10 +15,10 @@
    id="svg4691"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="edit.svg"
-   inkscape:export-filename="D:\ev\github\morpheus-icons\png\edit.png"
-   inkscape:export-xdpi="9.0712738"
-   inkscape:export-ydpi="9.0712738">
+   sodipodi:docname="user.svg"
+   inkscape:export-filename="D:\ev\github\morpheus-icons\png\tool\user.png"
+   inkscape:export-xdpi="9"
+   inkscape:export-ydpi="9">
   <defs
      id="defs4693" />
   <sodipodi:namedview
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-8.7256353"
-     inkscape:cy="96.303078"
+     inkscape:zoom="2.8"
+     inkscape:cx="59.765542"
+     inkscape:cy="70.141672"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +39,8 @@
      inkscape:window-height="1033"
      inkscape:window-x="-4"
      inkscape:window-y="-4"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="true" />
   <metadata
      id="metadata4696">
     <rdf:RDF>
@@ -48,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,17 +58,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-852.36216)">
-    <ellipse
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4135"
-       cx="100.32076"
-       cy="-953.04071"
-       transform="scale(1,-1)"
-       rx="94.879158"
-       ry="95.225403"
-       inkscape:export-filename="D:\ev\github\morpheus-icons\png\path4135.png"
-       inkscape:export-xdpi="9.0712738"
-       inkscape:export-ydpi="9.0712738" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -91,24 +81,27 @@
          x="83.928566"
          y="942.7193"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier" /></text>
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4138"
-       width="23.732206"
-       height="58.289627"
-       x="731.29645"
-       y="521.95801"
-       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4135"
+       cx="100.71428"
+       cy="952.7193"
+       rx="94.879158"
+       ry="95.225403"
+       inkscape:export-filename="D:\ev\github\morpheus-icons\png\path4135.png"
+       inkscape:export-xdpi="9.0712738"
+       inkscape:export-ydpi="9.0712738" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 110.12064,929.44786 -69.531208,69.53119 3e-6,11.44975 11.033381,0 69.531214,-69.53119 z"
-       id="path4152"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 146.21924,884.12447 c 0,0 -7.30352,6.88716 -19.15231,1.24906 -7.68525,7.68525 -2.49813,12.28246 -2.49813,12.28246 l -23.00359,23.00359"
-       id="path4154"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 31.785706,1019.505 c 0,0 13.499402,-49.2857 68.571424,-49.2857 55.07202,0 65.35715,51.4286 65.35715,51.4286"
+       id="path5425"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="czc" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5427"
+       cx="100.71428"
+       cy="925.57648"
+       r="41.07143" />
   </g>
 </svg>
