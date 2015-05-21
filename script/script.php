@@ -4,6 +4,12 @@
 // A = 0.0 to 1.0 range
 
 function colorize($file, $targetR, $targetG, $targetB, $targetA, $targetName ) {
+
+    if (!extension_loaded('gd') && !extension_loaded('gd2')) {
+        trigger_error("GD is not loaded", E_USER_WARNING);
+        return false;
+    }
+
     $im_src = imagecreatefrompng($file);
 
     $width = imagesx($im_src);
@@ -41,9 +47,25 @@ function colorize($file, $targetR, $targetG, $targetB, $targetA, $targetName ) {
     imagedestroy($im_dst);
 }
 
-//$img = dirname ( __FILE__ ) . '/link.png';
-//colorizeBasedOnAplhaChannnel( $img, 0, 0, 0xFF, 1, 'newlink1.png' );
-//colorizeBasedOnAplhaChannnel( $img, 0xFF, 0, 0xFF, 1, 'newlink2.png' );
+function resize( $filename, $new_width, $new_height ){
+    if (!extension_loaded('gd') && !extension_loaded('gd2')) {
+        trigger_error("GD is not loaded", E_USER_WARNING);
+        return false;
+    }
+    list($width, $height) = getimagesize($filename);
+    $im_src = imagecreatefrompng($filename);
+    $im_dst = imagecreatetruecolor($new_width, $new_height);
+    
+    imagealphablending($im_dst, false);
+    imagesavealpha($im_dst, true);
+
+    imagefill($im_dst, 0, 0, imagecolorallocatealpha($im_dst, 0, 0, 0, 127));
+
+    imagecopyresampled($im_dst, $im_src, 0, 0, 0, 0, $new_width, $new_height, $width, $height);
+    imagepng( $im_dst, $filename);
+    imagedestroy($im_dst);
+}
+
 
 function reconvert( $path = '.', $output = '.', $structure = array(), $level = 0 ){ 
     $ignore = array( 'cgi-bin', '.', '..', '.DS_Store', '.git' ); 
@@ -53,15 +75,23 @@ function reconvert( $path = '.', $output = '.', $structure = array(), $level = 0
         if( !in_array( $file, $ignore ) ){ 
             $spaces = str_repeat( ' ', ( $level * 4 ) );  
             if( is_dir( "$path/$file" ) ){ 
-                echo "$spaces $file\n"; 
+                echo "$spaces $file/\n"; 
+                if( !is_dir( "$output/$file" ) ){
+                    mkdir( "$output/$file" );
+                }
                 reconvert( "$path/$file", "$output/$file" , $structure, ($level+1) ); 
             } else { 
                 $ext = pathinfo("$path/$file", PATHINFO_EXTENSION);
-                echo "$spaces $file\n";
+                echo "$spaces $file ... OK\n";
                 if( $ext == "png" ){
                     foreach ($structure as $folder => $color) {
-                        //echo "$spaces $path/$file ==> $output/$folder/$file \n";
-                        colorize( "$path/$file", $color["colors"]["R"], $color["colors"]["B"], $color["colors"]["G"], $color["colors"]["A"], "$output/$folder/$file" );
+                        if( !is_dir( "$output/$folder" ) ){
+                            mkdir( "$output/$folder" );
+                        }
+                        colorize( "$path/$file", $color["colors"]["R"], $color["colors"]["G"], $color["colors"]["B"], $color["colors"]["A"], "$output/$folder/$file" );
+                        if( isset( $structure[ $folder ]["size"] ) ){
+                            resize( "$output/$folder/$file", $structure[ $folder ]["size"], $structure[ $folder ]["size"] );
+                        }
                     }
                 }
             } 
@@ -80,7 +110,8 @@ $png_structure = array(
         "colors" => array("R" => 0x2A,"G" => 0x97,"B" => 0xCC,"A" => 1)
     ) ,
     "sitenav" => array(
-        "colors" => array("R" => 0x78,"G" => 0x57,"B" => 0x3C,"A" => 1)
+        "colors" => array("R" => 0x78,"G" => 0x57,"B" => 0x3C,"A" => 1),
+        "size"   => 16
     )
 );
 

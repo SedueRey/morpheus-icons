@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="link.svg"
-   inkscape:export-filename="D:\ev\github\morpheus-icons\png\link.png"
+   inkscape:export-filename="D:\ev\github\morpheus-icons\png\base\link.png"
    inkscape:export-xdpi="9.0712738"
    inkscape:export-ydpi="9.0712738">
   <defs
@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="66.218074"
+     inkscape:cx="56.989476"
      inkscape:cy="84.386059"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -64,17 +64,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-852.36216)">
-    <ellipse
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4135"
-       cx="100.32076"
-       cy="-953.04071"
-       transform="scale(1,-1)"
-       rx="94.879158"
-       ry="95.225403"
-       inkscape:export-filename="D:\ev\github\morpheus-icons\png\path4135.png"
-       inkscape:export-xdpi="9.0712738"
-       inkscape:export-ydpi="9.0712738" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -99,8 +88,8 @@
          y="942.7193"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Courier;-inkscape-font-specification:Courier" /></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 65.752874,966.38334 -21.622222,20.90793 c 0,0 -5.664898,13.11083 7.071455,26.39103 10.659286,11.1145 27.070852,7.2536 27.070852,7.2536 l 42.399411,-42.3994 c 0,0 4.87286,-14.54955 -6.76928,-25.26329 -6.52458,-6.00428 -15.96319,-5.71051 -15.96319,-5.71051"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:12.24110317;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.035334,963.80325 -32.150915,25.2959 c 0,0 -9.480194,16.95535 5.914098,36.68775 12.883765,16.5143 35.624113,13.5626 35.624113,13.5626 l 63.23925,-51.49843 c 0,0 8.60772,-19.01171 -5.66138,-35.11993 -7.99681,-9.02748 -20.80847,-9.93683 -20.80847,-9.93683"
        id="path4138"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccsccsc" />
@@ -108,7 +97,7 @@
        sodipodi:nodetypes="ccsccsc"
        inkscape:connector-curvature="0"
        id="path4143"
-       d="m 124.49416,941.7779 21.62223,-20.90797 c 0,0 5.66489,-13.1108 -7.07146,-26.39103 -10.65928,-11.1145 -27.07085,-7.2536 -27.07085,-7.2536 l -42.399408,42.3994 c 0,0 -4.87286,14.5496 6.76928,25.2633 6.52458,6.0043 15.963188,5.7105 15.963188,5.7105"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       d="m 140.9224,938.64373 32.15094,-25.29596 c 0,0 9.48018,-16.95533 -5.91412,-36.68766 -12.88375,-16.51438 -35.6241,-13.56263 -35.6241,-13.56263 l -63.239247,51.49838 c 0,0 -8.607727,19.01177 5.661384,35.11993 7.996802,9.02752 20.80846,9.93682 20.80846,9.93682"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:12.24110317;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
