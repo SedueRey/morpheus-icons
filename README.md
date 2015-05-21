@@ -1,4 +1,4 @@
-# GPL Icons for Morpheus Master / Sakai
+# Icons for Morpheus Master / Sakai
 
 The new Morpheus skin has new icons on it. This repo will help to maintain source files for those icons. 
 
