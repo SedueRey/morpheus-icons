@@ -11,7 +11,10 @@ cd scripts
 /path/to/php script.php
 ```
 
+## Updating
 
-# Considerations...
+If there's a need of another icon tell me and I'll try to do my best
+
+## Considerations...
 
 Of course, feel free to contribute :)
